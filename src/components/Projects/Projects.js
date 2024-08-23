@@ -20,15 +20,6 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ggeek}
-              isBlog={false}
-              title="Game Geek"
-              ghLink="https://github.com/theMuhammad/Geek-game"
-              demoLink="https://geek-game.vercel.app/"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -54,8 +45,17 @@ function Projects() {
               imgPath={crypto}
               isBlog={false}
               title="Cryptofolio"
-              ghLink=""
-              demoLink="./"
+              ghLink="https://github.com/theMuhammad/Cryptofolio_exam-"
+              demoLink="https://cryptofolio-khaki.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ggeek}
+              isBlog={false}
+              title="Game Geek"
+              ghLink="https://github.com/theMuhammad/Geek-game"
+              demoLink="https://geek-game.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
